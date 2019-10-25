@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1571958407 source:/home/juliodev/Cpp/OpenGLX/src/Application.cpp
+1571993384 source:/home/juliodev/Cpp/OpenGLX/src/Application.cpp
 	<GL/glew.h>
 	<GLFW/glfw3.h>
 	<iostream>
@@ -9,6 +9,7 @@
 	"VertexArray.h"
 	"VertexBufferLayout.h"
 	"Shader.h"
+	"Texture.h"
 
 1571472718 /home/juliodev/Cpp/OpenGLX/libs/GLFW/include/GLFW/glfw3.h
 	<stddef.h>
@@ -363,7 +364,7 @@
 	"IndexBuffer.h"
 	"Shader.h"
 
-1571958500 source:/home/juliodev/Cpp/OpenGLX/src/Renderer.cpp
+1571974606 source:/home/juliodev/Cpp/OpenGLX/src/Renderer.cpp
 	"Renderer.h"
 	<iostream>
 
@@ -392,15 +393,229 @@
 	"VertexBufferLayout.h"
 	"Renderer.h"
 
-1571942900 /home/juliodev/Cpp/OpenGLX/src/Shader.h
+1571991683 /home/juliodev/Cpp/OpenGLX/src/Shader.h
 	<string>
 	<unordered_map>
 
-1571943430 source:/home/juliodev/Cpp/OpenGLX/src/Shader.cpp
+1571994502 source:/home/juliodev/Cpp/OpenGLX/src/Shader.cpp
 	<string>
 	<iostream>
 	<fstream>
 	<sstream>
 	"Renderer.h"
 	"Shader.h"
+
+1571987634 source:/home/juliodev/Cpp/OpenGLX/src/vendor/stb_image/stb_image.cpp
+	"stb_image.h"
+
+1571987188 /home/juliodev/Cpp/OpenGLX/src/vendor/stb_image/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1569844184 /usr/include/stdio.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<stdarg.h>
+	<bits/types.h>
+	<bits/types/__fpos_t.h>
+	<bits/types/__fpos64_t.h>
+	<bits/types/__FILE.h>
+	<bits/types/FILE.h>
+	<bits/types/struct_FILE.h>
+	<bits/types/cookie_io_functions_t.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<bits/getopt_posix.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1569844184 /usr/include/bits/types/__fpos_t.h
+	<bits/types.h>
+	<bits/types/__mbstate_t.h>
+
+1569844184 /usr/include/bits/types/__mbstate_t.h
+
+1569844184 /usr/include/bits/types/__fpos64_t.h
+	<bits/types.h>
+	<bits/types/__mbstate_t.h>
+
+1569844184 /usr/include/bits/types/__FILE.h
+
+1569844184 /usr/include/bits/types/FILE.h
+
+1569844184 /usr/include/bits/types/struct_FILE.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/types/cookie_io_functions_t.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/stdio_lim.h
+
+1569844184 /usr/include/bits/sys_errlist.h
+
+1569844184 /usr/include/bits/getopt_posix.h
+	<bits/getopt_core.h>
+
+1569844184 /usr/include/bits/getopt_core.h
+
+1569844184 /usr/include/bits/stdio.h
+
+1569844184 /usr/include/bits/stdio2.h
+
+1569844184 /usr/include/bits/stdio-ldbl.h
+
+1569844184 /usr/include/string.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<bits/types/locale_t.h>
+	<strings.h>
+	<bits/string_fortified.h>
+
+1569844184 /usr/include/strings.h
+	<features.h>
+	<stddef.h>
+	<bits/types/locale_t.h>
+	<bits/strings_fortified.h>
+
+1569844184 /usr/include/bits/strings_fortified.h
+
+1569844184 /usr/include/bits/string_fortified.h
+	<bits/strings_fortified.h>
+
+1569844184 /usr/include/limits.h
+	<bits/libc-header-start.h>
+	<bits/wordsize.h>
+	<bits/posix1_lim.h>
+	<bits/posix2_lim.h>
+	<bits/xopen_lim.h>
+
+1569844184 /usr/include/bits/posix1_lim.h
+	<bits/wordsize.h>
+	<bits/local_lim.h>
+
+1569844184 /usr/include/bits/local_lim.h
+	<linux/limits.h>
+
+1569832743 /usr/include/linux/limits.h
+
+1569844184 /usr/include/bits/posix2_lim.h
+
+1569844184 /usr/include/bits/xopen_lim.h
+	<bits/uio_lim.h>
+	<bits/wordsize.h>
+
+1569844184 /usr/include/bits/uio_lim.h
+
+1569844184 /usr/include/math.h
+	<bits/libc-header-start.h>
+	<bits/types.h>
+	<bits/math-vector.h>
+	<bits/floatn.h>
+	<bits/flt-eval-method.h>
+	<bits/fp-logb.h>
+	<bits/fp-fast.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-helper-functions.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/mathcalls-narrow.h>
+	<bits/iscanonical.h>
+	<bits/mathinline.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+	<bits/math-finite.h>
+
+1569844184 /usr/include/bits/math-vector.h
+	<bits/libm-simd-decl-stubs.h>
+
+1569844184 /usr/include/bits/libm-simd-decl-stubs.h
+
+1569844184 /usr/include/bits/flt-eval-method.h
+
+1569844184 /usr/include/bits/fp-logb.h
+
+1569844184 /usr/include/bits/fp-fast.h
+
+1569844184 /usr/include/bits/mathcalls-helper-functions.h
+
+1569844184 /usr/include/bits/mathcalls.h
+
+1569844184 /usr/include/bits/mathcalls-narrow.h
+
+1569844184 /usr/include/bits/iscanonical.h
+
+1569844184 /usr/include/bits/mathinline.h
+
+1569844184 /usr/include/bits/math-finite.h
+
+1569844184 /usr/include/assert.h
+	<features.h>
+
+1571992677 /home/juliodev/Cpp/OpenGLX/src/Texture.h
+	"Renderer.h"
+
+1571992756 source:/home/juliodev/Cpp/OpenGLX/src/Texture.cpp
+	"Texture.h"
+	"vendor/stb_image/stb_image.h"
 

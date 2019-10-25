@@ -52,17 +52,22 @@
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="src/Application.cpp" />
+		<Unit filename="src/Image.h" />
 		<Unit filename="src/IndexBuffer.cpp" />
 		<Unit filename="src/IndexBuffer.h" />
 		<Unit filename="src/Renderer.cpp" />
 		<Unit filename="src/Renderer.h" />
 		<Unit filename="src/Shader.cpp" />
 		<Unit filename="src/Shader.h" />
+		<Unit filename="src/Texture.cpp" />
+		<Unit filename="src/Texture.h" />
 		<Unit filename="src/VertexArray.cpp" />
 		<Unit filename="src/VertexArray.h" />
 		<Unit filename="src/VertexBuffer.cpp" />
 		<Unit filename="src/VertexBuffer.h" />
 		<Unit filename="src/VertexBufferLayout.h" />
+		<Unit filename="src/vendor/stb_image/stb_image.cpp" />
+		<Unit filename="src/vendor/stb_image/stb_image.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

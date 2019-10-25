@@ -8,6 +8,7 @@
 #include "VertexArray.h"
 #include "VertexBufferLayout.h"
 #include "Shader.h"
+#include "Texture.h"
 
 int main(void)
 {
@@ -44,21 +45,22 @@ int main(void)
         3, 2, 1
     };
 
-    float positions[8] {
-        -0.5f, -0.5f, // 0
-        -0.5f,  0.5f, // 1
-         0.5f, -0.5f, // 2
-         0.5f,  0.5f, // 3
+    float positions[] {
+        -0.5f, -0.5f, 0.0f, 0.0f, // 0
+        -0.5f,  0.5f, 1.0f, 0.0f, // 1
+         0.5f, -0.5f, 1.0f, 1.0f, // 2
+         0.5f,  0.5f, 0.0f, 1.0f  // 3
     };
 
     // Vertex Array
     VertexArray va;
 
     // Vertex Buffer
-    VertexBuffer vb(positions, 4 * 2 * sizeof(float));
+    VertexBuffer vb(positions, 4 * 4 * sizeof(float));
 
     // Vertex Buffer Layout
     VertexBufferLayout layout;
+    layout.PushFloat(2);
     layout.PushFloat(2);
     va.AddBuffer(vb, layout);
 
@@ -68,8 +70,11 @@ int main(void)
     // Shader Setup
     Shader shader("res/shaders/basic.shader");
     shader.Bind();
-
     shader.SetUniforms4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
+
+    Texture texture("res/textures/melchor.png");
+    texture.Bind();
+    shader.SetUniforms1i("u_Texture", 0);
 
     float r = 0.0f;
     float increment = 0.05f;
@@ -84,6 +89,8 @@ int main(void)
 
          glfwSwapInterval(1);
          shader.SetUniforms4f("u_Color", r, 0.3f, 0.8f, 1.0f);
+         positions[1] += 0.1;
+         vb.Bind();
 
 
          renderer.Draw(va, ib, shader);
