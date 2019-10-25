@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenGLX" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OpenGLX" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="libs/GLFW/include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OpenGLX" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions -pthread" />
+			<Add directory="libs/GLFW/include" />
+			<Add directory="../../../../usr/include" />
+			<Add directory="libs/GLEW/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="libs/GLFW/include" />
+			<Add directory="../../../../usr/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-ldl -pthread" />
+			<Add library="libs/GLFW/libglfw3.a" />
+			<Add library="../../../../usr/lib/libX11.so" />
+			<Add library="../../../../usr/lib/libGL.so" />
+			<Add library="libs/GLEW/libGLEW.a" />
+		</Linker>
+		<Unit filename="res/shaders/basic.shader">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="src/Application.cpp" />
+		<Unit filename="src/IndexBuffer.cpp" />
+		<Unit filename="src/IndexBuffer.h" />
+		<Unit filename="src/Renderer.cpp" />
+		<Unit filename="src/Renderer.h" />
+		<Unit filename="src/Shader.cpp" />
+		<Unit filename="src/Shader.h" />
+		<Unit filename="src/VertexArray.cpp" />
+		<Unit filename="src/VertexArray.h" />
+		<Unit filename="src/VertexBuffer.cpp" />
+		<Unit filename="src/VertexBuffer.h" />
+		<Unit filename="src/VertexBufferLayout.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

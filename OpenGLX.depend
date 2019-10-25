@@ -1,0 +1,406 @@
+# depslib dependency file v1.0
+1571958407 source:/home/juliodev/Cpp/OpenGLX/src/Application.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	"Renderer.h"
+	"VertexBuffer.h"
+	"IndexBuffer.h"
+	"VertexArray.h"
+	"VertexBufferLayout.h"
+	"Shader.h"
+
+1571472718 /home/juliodev/Cpp/OpenGLX/libs/GLFW/include/GLFW/glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1569844184 /usr/include/stdint.h
+	<bits/libc-header-start.h>
+	<bits/types.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+	<bits/stdint-intn.h>
+	<bits/stdint-uintn.h>
+
+1569844184 /usr/include/bits/libc-header-start.h
+	<features.h>
+
+1569844184 /usr/include/features.h
+	<stdc-predef.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1569844184 /usr/include/stdc-predef.h
+
+1569844184 /usr/include/sys/cdefs.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/long-double.h>
+
+1569844184 /usr/include/bits/wordsize.h
+
+1569844184 /usr/include/bits/long-double.h
+
+1569844184 /usr/include/gnu/stubs.h
+	<gnu/stubs-32.h>
+	<gnu/stubs-64.h>
+	<gnu/stubs-x32.h>
+
+1569844184 /usr/include/gnu/stubs-32.h
+
+1569844184 /usr/include/gnu/stubs-64.h
+
+1569844184 /usr/include/bits/types.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/timesize.h>
+	<bits/typesizes.h>
+	<bits/time64.h>
+
+1569844184 /usr/include/bits/timesize.h
+
+1569844184 /usr/include/bits/typesizes.h
+
+1569844184 /usr/include/bits/time64.h
+
+1569844184 /usr/include/bits/wchar.h
+
+1569844184 /usr/include/bits/stdint-intn.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/stdint-uintn.h
+	<bits/types.h>
+
+1571408942 /usr/include/GLES2/gl2.h
+	<GLES2/gl2platform.h>
+	<KHR/khrplatform.h>
+
+1571408942 /usr/include/GLES2/gl2platform.h
+	<KHR/khrplatform.h>
+
+1571408942 /usr/include/KHR/khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1569844184 /usr/include/inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1571408942 /usr/include/GLES2/gl2ext.h
+
+1571408942 /usr/include/GLES3/gl3.h
+	<GLES3/gl3platform.h>
+	<KHR/khrplatform.h>
+
+1571408942 /usr/include/GLES3/gl3platform.h
+	<KHR/khrplatform.h>
+
+1571408942 /usr/include/GLES3/gl31.h
+	<GLES3/gl3platform.h>
+	<KHR/khrplatform.h>
+
+1571408942 /usr/include/GLES3/gl32.h
+	<GLES3/gl3platform.h>
+	<KHR/khrplatform.h>
+
+1571408942 /usr/include/GL/glcorearb.h
+	<windows.h>
+	<KHR/khrplatform.h>
+
+1571408942 /usr/include/GL/gl.h
+	"gl_mangle.h"
+	<stdlib.h>
+	<windows.h>
+	<GL/glext.h>
+
+1570644336 /usr/include/GL/gl_mangle.h
+
+1571408942 /usr/include/GL/glext.h
+	<windows.h>
+	<KHR/khrplatform.h>
+
+1563994442 /usr/include/GL/glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1563994442 /usr/include/GL/glu_mangle.h
+
+1501777780 /usr/include/GL/glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1569844184 /usr/include/signal.h
+	<features.h>
+	<bits/types.h>
+	<bits/signum.h>
+	<bits/types/sig_atomic_t.h>
+	<bits/types/sigset_t.h>
+	<bits/types/struct_timespec.h>
+	<bits/types/siginfo_t.h>
+	<bits/siginfo-consts.h>
+	<bits/types/sigval_t.h>
+	<bits/types/sigevent_t.h>
+	<bits/sigevent-consts.h>
+	<bits/sigaction.h>
+	<bits/sigcontext.h>
+	<stddef.h>
+	<bits/types/stack_t.h>
+	<sys/ucontext.h>
+	<bits/sigstack.h>
+	<bits/ss_flags.h>
+	<bits/types/struct_sigstack.h>
+	<bits/pthreadtypes.h>
+	<bits/sigthread.h>
+	<bits/signal_ext.h>
+
+1569844184 /usr/include/bits/signum.h
+	<bits/signum-generic.h>
+
+1569844184 /usr/include/bits/signum-generic.h
+
+1569844184 /usr/include/bits/types/sig_atomic_t.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/types/sigset_t.h
+	<bits/types/__sigset_t.h>
+
+1569844184 /usr/include/bits/types/__sigset_t.h
+
+1569844184 /usr/include/bits/types/struct_timespec.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/types/siginfo_t.h
+	<bits/wordsize.h>
+	<bits/types.h>
+	<bits/types/__sigval_t.h>
+	<bits/siginfo-arch.h>
+
+1569844184 /usr/include/bits/types/__sigval_t.h
+
+1569844184 /usr/include/bits/siginfo-arch.h
+
+1569844184 /usr/include/bits/siginfo-consts.h
+	<bits/siginfo-arch.h>
+	<bits/siginfo-consts-arch.h>
+
+1569844184 /usr/include/bits/siginfo-consts-arch.h
+
+1569844184 /usr/include/bits/types/sigval_t.h
+	<bits/types/__sigval_t.h>
+
+1569844184 /usr/include/bits/types/sigevent_t.h
+	<bits/wordsize.h>
+	<bits/types.h>
+	<bits/types/__sigval_t.h>
+
+1569844184 /usr/include/bits/sigevent-consts.h
+
+1569844184 /usr/include/bits/sigaction.h
+
+1569844184 /usr/include/bits/sigcontext.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/types/stack_t.h
+	<stddef.h>
+
+1569844184 /usr/include/sys/ucontext.h
+	<features.h>
+	<bits/types.h>
+	<bits/types/sigset_t.h>
+	<bits/types/stack_t.h>
+
+1569844184 /usr/include/bits/sigstack.h
+
+1569844184 /usr/include/bits/ss_flags.h
+
+1569844184 /usr/include/bits/types/struct_sigstack.h
+
+1569844184 /usr/include/bits/pthreadtypes.h
+	<bits/thread-shared-types.h>
+
+1569844184 /usr/include/bits/thread-shared-types.h
+	<bits/pthreadtypes-arch.h>
+
+1569844184 /usr/include/bits/pthreadtypes-arch.h
+	<bits/wordsize.h>
+
+1569844184 /usr/include/bits/sigthread.h
+	<bits/types/__sigset_t.h>
+
+1569844184 /usr/include/bits/signal_ext.h
+
+1569844184 /usr/include/stdlib.h
+	<bits/libc-header-start.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<bits/floatn.h>
+	<bits/types/locale_t.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib-bsearch.h>
+	<bits/stdlib-float.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1569844184 /usr/include/bits/waitflags.h
+
+1569844184 /usr/include/bits/waitstatus.h
+
+1569844184 /usr/include/bits/floatn.h
+	<features.h>
+	<bits/floatn-common.h>
+
+1569844184 /usr/include/bits/floatn-common.h
+	<features.h>
+	<bits/long-double.h>
+
+1569844184 /usr/include/bits/types/locale_t.h
+	<bits/types/__locale_t.h>
+
+1569844184 /usr/include/bits/types/__locale_t.h
+
+1569844184 /usr/include/sys/types.h
+	<features.h>
+	<bits/types.h>
+	<bits/types/clock_t.h>
+	<bits/types/clockid_t.h>
+	<bits/types/time_t.h>
+	<bits/types/timer_t.h>
+	<stddef.h>
+	<bits/stdint-intn.h>
+	<endian.h>
+	<sys/select.h>
+	<bits/pthreadtypes.h>
+
+1569844184 /usr/include/bits/types/clock_t.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/types/clockid_t.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/types/time_t.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/types/timer_t.h
+	<bits/types.h>
+
+1569844184 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+	<bits/uintn-identity.h>
+
+1569844184 /usr/include/bits/endian.h
+
+1569844184 /usr/include/bits/byteswap.h
+	<features.h>
+	<bits/types.h>
+
+1569844184 /usr/include/bits/uintn-identity.h
+	<bits/types.h>
+
+1569844184 /usr/include/sys/select.h
+	<features.h>
+	<bits/types.h>
+	<bits/select.h>
+	<bits/types/sigset_t.h>
+	<bits/types/time_t.h>
+	<bits/types/struct_timeval.h>
+	<bits/types/struct_timespec.h>
+	<bits/select2.h>
+
+1569844184 /usr/include/bits/select.h
+	<bits/wordsize.h>
+
+1569844184 /usr/include/bits/types/struct_timeval.h
+	<bits/types.h>
+
+1569844184 /usr/include/bits/select2.h
+
+1569844184 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1569844184 /usr/include/bits/stdlib-bsearch.h
+
+1569844184 /usr/include/bits/stdlib-float.h
+
+1569844184 /usr/include/bits/stdlib.h
+
+1569844184 /usr/include/bits/stdlib-ldbl.h
+
+1571958480 /home/juliodev/Cpp/OpenGLX/src/Renderer.h
+	<GL/glew.h>
+	<signal.h>
+	"VertexArray.h"
+	"IndexBuffer.h"
+	"Shader.h"
+
+1571958500 source:/home/juliodev/Cpp/OpenGLX/src/Renderer.cpp
+	"Renderer.h"
+	<iostream>
+
+1571814761 /home/juliodev/Cpp/OpenGLX/src/VertexBuffer.h
+
+1571957533 /home/juliodev/Cpp/OpenGLX/src/IndexBuffer.h
+
+1571817363 source:/home/juliodev/Cpp/OpenGLX/src/VertexBuffer.cpp
+	"VertexBuffer.h"
+	"Renderer.h"
+
+1571958163 source:/home/juliodev/Cpp/OpenGLX/src/IndexBuffer.cpp
+	"IndexBuffer.h"
+	"Renderer.h"
+
+1571958103 /home/juliodev/Cpp/OpenGLX/src/VertexArray.h
+	"VertexBuffer.h"
+
+1571902698 /home/juliodev/Cpp/OpenGLX/src/VertexBufferLayout.h
+	<vector>
+	<GL/glew.h>
+	"Renderer.h"
+
+1571958143 source:/home/juliodev/Cpp/OpenGLX/src/VertexArray.cpp
+	"VertexArray.h"
+	"VertexBufferLayout.h"
+	"Renderer.h"
+
+1571942900 /home/juliodev/Cpp/OpenGLX/src/Shader.h
+	<string>
+	<unordered_map>
+
+1571943430 source:/home/juliodev/Cpp/OpenGLX/src/Shader.cpp
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	"Renderer.h"
+	"Shader.h"
+
